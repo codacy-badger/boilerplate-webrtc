@@ -4,7 +4,8 @@
 [![CircleCI](https://circleci.com/gh/seiyaO/boilerplate-webrtc.svg?style=svg)](https://circleci.com/gh/seiyaO/boilerplate-webrtc)
 
 
-## How to build.
+## How to build
+
 ```bash
 npm install
 npm run build
