@@ -19,8 +19,8 @@ module.exports = class WebRTC {
 				this.video.width = constraints.video.width;
 				this.video.height = constraints.video.height;
 
-				this.video.addEventListener("playing", ()=> this.videoPlaying = true);
-				this.video.addEventListener("paused", ()=> this.videoPlaying = false);
+				this.video.addEventListener("playing", () => this.videoPlaying = true);
+				this.video.addEventListener("paused", () => this.videoPlaying = false);
 			});
 		console.log("webrtc module loaded");
 	}
