@@ -1,3 +1,3 @@
-import WebRTC from './webrtc'
+import WebRTC from "./webrtc";
 
-window.addEventListener('load', () => new WebRTC());
+window.addEventListener("load", () => new WebRTC());

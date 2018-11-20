@@ -13,7 +13,7 @@
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "count": "find src -name '*.js' | xargs wc -l | sort -r",
         "build": "webpack -p",
-				"test": "webpack -p",
+        "test": "webpack -p",
         "watch": "webpack -w"
     },
     "devDependencies": {
